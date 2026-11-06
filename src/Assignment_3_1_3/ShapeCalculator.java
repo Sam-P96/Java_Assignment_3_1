@@ -8,6 +8,7 @@ public class ShapeCalculator {
                 new Triangle(3.0, 8.0, "red")
         };
 
+        //
         System.out.println("Shape Calculator");
         System.out.println();
 
