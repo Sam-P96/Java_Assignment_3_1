@@ -3,10 +3,17 @@ package Assignment_3_1_3;
 public class Circle extends Shape {
     private String typeShape;
     private double radius;
+    private String color;
 
-    public Circle(String typeShape, double radius) {
+    public Circle(String typeShape, double radius, String color) {
         this.typeShape = typeShape;
         this.radius = radius;
+        this.color = color;
+    }
+
+    @Override
+    public String getColor() {
+        return color;
     }
 
     public String getTypeShape() {

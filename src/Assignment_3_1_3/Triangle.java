@@ -4,13 +4,20 @@ public class Triangle extends Shape {
     private String typeShape;
     private double width;
     private double height;
+    private String color;
 
-    public Triangle(double height, double width) {
+    public Triangle(double height, double width, String color) {
         this.typeShape = "Triangle";
         this.width = width;
         this.height = height;
+        this.color = color;
     }
 
+
+    @Override
+    public String getColor() {
+        return color;
+    }
     public double getHeight() {
         return height;
     }

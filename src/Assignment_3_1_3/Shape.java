@@ -15,4 +15,8 @@ public class Shape {
     public String getTypeShape() {
         return "";
     }
+
+    public String getColor() {
+        return "";
+    }
 }

@@ -4,12 +4,17 @@ public class Rectangle extends Shape{
     private String typeShape = "Rectangle";
     private double width;
     private double height;
+    private String color;
 
-    public Rectangle(double width, double height) {
+    public Rectangle(double width, double height, String color) {
+        this.color = color;
         this.width = width;
         this.height = height;
     }
-
+    @Override
+    public String getColor() {
+        return color;
+    }
     public String getTypeShape() {
         return typeShape;
     }
